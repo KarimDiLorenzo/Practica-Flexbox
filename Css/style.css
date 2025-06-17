@@ -1,3 +1,13 @@
+/* Selector universal */
+/* *{
+
+} */
+/* Selector por etiqueta*/
 h1 {
    color: fuchsia; 
+}
+
+/* Selector por clase*/ 
+.prueba_css {
+color: aquamarine;
 }
