@@ -9,5 +9,15 @@ h1 {
 
 /* Selector por clase*/ 
 .prueba_css {
-color: aquamarine;
+color: lightcoral;
+}
+
+/* Selector descendente */ 
+div p {
+    color: greenyellow;
+}
+
+/*Selector hijo directo */
+section > span{
+    color: orange;
 }
