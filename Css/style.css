@@ -4,12 +4,19 @@
 } */
 /* Selector por etiqueta*/
 h1 {
-   color: fuchsia; 
+   color: fuchsia;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   font-size:xx-large;
+   text-align: center;
 }
 
 /* Selector por clase*/ 
 .prueba_css {
 color: lightcoral;
+font-size: 20px;
+text-transform: lowercase;
+letter-spacing: 15px;
+text-align: left;
 }
 
 /* Selector descendente */ 
@@ -20,4 +27,9 @@ div p {
 /*Selector hijo directo */
 section > span{
     color: orange;
+}
+
+/* Selector por atributo */ 
+input[type="text"]{
+    color: lightgreen;
 }
