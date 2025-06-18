@@ -1,7 +1,8 @@
 /* Selector universal */
-/* *{
-
-} */
+*{
+    margin: 0;
+    padding: 0;
+} 
 /* Selector por etiqueta*/
 h1 {
    color: fuchsia;
@@ -13,15 +14,18 @@ h1 {
 /* Selector por clase*/ 
 .prueba_css {
 color: lightcoral;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 20px;
 text-transform: lowercase;
 letter-spacing: 15px;
 text-align: left;
+margin: 5px;
+padding: 10px;
 }
 
 /* Selector descendente */ 
 div p {
-    color: greenyellow;
+    color: darkcyan;
 }
 
 /*Selector hijo directo */
@@ -32,4 +36,19 @@ section > span{
 /* Selector por atributo */ 
 input[type="text"]{
     color: lightgreen;
+} 
+
+/* Box model - Propiedades de la caja*/
+div {
+    background-color: goldenrod;
+    width: 200px;
+    border: groove plum 20px;
+    margin: 20px 30px;
+    padding: 15px 20px;
 }
+
+p{
+    border:11px red groove ;
+    border-radius: 20px;
+    text-align: center;
+}   
